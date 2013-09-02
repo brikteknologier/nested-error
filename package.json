@@ -1,0 +1,19 @@
+{
+  "name": "nested-error",
+  "version": "1.0.0",
+  "description": "An Error class useful for wrapping another Error to get a better stack trace associated with it",
+  "main": "nested-error.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brikteknologier/nested-error.git"
+  },
+  "keywords": [
+    "error",
+    "exception"
+  ],
+  "author": "Magnus Hoff <magnus.hoff@brik.no>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brikteknologier/nested-error/issues"
+  }
+}
