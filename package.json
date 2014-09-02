@@ -1,6 +1,6 @@
 {
   "name": "nested-error",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An Error class useful for wrapping another Error to get a better stack trace associated with it",
   "main": "nested-error.js",
   "repository": {
