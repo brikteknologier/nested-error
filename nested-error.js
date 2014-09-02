@@ -1,4 +1,5 @@
 function NestedError(innerException) {
+  if (!(this instanceof NestedError)) return new NestedError(innerException);
   Error.call(this);
   Error.captureStackTrace(this, arguments.callee);
   this.name = 'NestedError';
